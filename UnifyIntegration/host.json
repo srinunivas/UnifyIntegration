@@ -1,0 +1,17 @@
+{
+  "functionTimeout": "00:10:00",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
+    },
+    "fileLoggingMode": "always",
+    "logLevel": {
+      "default": "Information",
+      "Host.Triggers.DurableTask": "Error"
+    }
+  },
+  "version": "2.0"
+}

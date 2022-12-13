@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IntegrationApp.Unify.Functions</id>
+    <title>IntegrationApp.Unify.Functions</title>
+    <version>$version$</version>
+    <authors>Paycor</authors>
+    <description>Functions app for Unify Integration</description>
+  </metadata>
+	 <files>
+	<file src="..\UnifyIntegration\bin\Release\netcoreapp3.1\publish\**\*.*" target="\" />
+  </files>
+</package>

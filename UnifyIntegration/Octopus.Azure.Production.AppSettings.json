@@ -1,0 +1,46 @@
+[
+	{
+		"Name": "FUNCTIONS_WORKER_RUNTIME",
+		"Value": "dotnet"
+	},
+	{
+		"Name": "PublicAPIMBaseAddress",
+		"Value": "#{paycorpublicapim_GatewayUrl_FQDN}"
+	},
+	{
+		"Name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+		"Value": "#{paycorUnifyintegrationappinsights-AppInsights-InstrumentationKey}"
+	},
+	{
+		"Name": "AppOAuthClientId",
+		"Value": "#{UnifyIntegrationApp-OAuth-ClientID}"
+	},
+	{
+		"Name": "AppOAuthClientSecret",
+		"Value": "#{UnifyIntegrationApp-OAuth-ClientSecret}"
+	},
+	{
+		"Name": "PrivateAPIMBaseAddress",
+		"Value": "#{BaseURL-API}"
+	},
+	{
+		"Name": "UnifyApplicationId",
+		"Value": "#{UnifyApplicationId}"
+	},
+	{
+		"Name": "EntityUserOAuthClientId",
+		"Value": "#{UnifyIntegrationFunctions-OAuth-ClientID}"
+	},
+	{
+		"Name": "PublicAPIMKey",
+		"Value": "#{PublicAPIMKey}"
+	},
+	{
+		"Name": "AppCodeVerifier",
+		"Value": "#{Unify-AppCodeVerifier}"
+	},
+	{
+		"Name": "UnifyTrafficManagerUrl",
+		"Value": "#{Unify-TrafficManager-Url}"
+	}
+]
